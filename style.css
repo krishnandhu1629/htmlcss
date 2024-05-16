@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Fira Sans Condensed', sans-serif;
+    --sm-font: 'Poppins', sans-serif;
+    --orange: #f2a26f;
+    --pink: #ed9bad;
+    --blue: #63d0e5;
+    --yellow: #e9d06c;
+    --transition: all 0.3s ease;
+}
+
+body{
+    font-family: var(--sm-font);
+}
+
+h1, h2, h3{
+    font-family: var(--lg-font);
+    letter-spacing: 1px;
+}
+/* button */
+.btn{
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: var(--lg-font);
+    border: 3px solid #fff;
+    width: 180px;
+    padding: 8px 0;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    color: #fff;
+}
+
+#header {
+    background: url('file:///C:/Users/krish/Desktop/github/images/header.jpg') center/cover no-repeat;
+  }
+  
+.nav-link{
+    transition: var(--transition);
+}
+.nav-link:hover{
+    opacity: 0.7;
+}
+.header-banner .container{
+    min-height: calc(100vh - 96px);
+}
+.header-banner h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.header-banner .lead{
+    max-width: 600px;
+}
+.header-banner .btn{
+    background-color: transparent;
+    color: #fff;
+}
+.header-banner .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* line and title */
+.line{
+    height: 3px;
+    width: 70px;
+    background-color: var(--orange);
+    margin-right: 30px;
+}
+.title h3{
+    color: var(--orange);
+    font-family: var(--sm-font);
+}
+
+.title span{
+    font-size: 32px;
+    font-family: var(--lg-font);
+}
+
+/* about */
+.about-img{
+    background: url(file:///C:/Users/krish/Desktop/github/images/about1.JPG) center/cover no-repeat;
+    min-height: 500px;
+}
+.about-text .btn{
+    color: #fff;
+    border-color: var(--orange);
+}
+.about-text .btn:hover{
+    background-color: var(--orange);
+}
+
+/* features */
+.features-img{
+    background: url(images/skills.jpg) center/cover no-repeat;
+    min-height: 500px;
+}
+.features-text .line{
+    background-color: var(--blue);  
+}
+.features-text .title h3{
+    color: var(--blue);
+}
+.features-text .btn{
+    color: #fff;
+    border-color: var(--blue);
+}
+.features-text .btn:hover{
+    background-color: var(--blue);
+}
+/* footer */
+.footer {
+    padding: 1rem 0;
+  }
